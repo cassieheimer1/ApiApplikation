@@ -29,5 +29,9 @@ namespace ApiApplikation.Models.Entities
         public int CategoryId { get; set; }
 
         public CategoryEntity Category { get; set; } = null!;
+
+        public int ArticalNumber { get; set; }
+        public string Description { get; set; } = null!;
+
     }
 }
