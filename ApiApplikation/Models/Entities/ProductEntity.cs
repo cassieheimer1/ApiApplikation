@@ -5,6 +5,16 @@ namespace ApiApplikation.Models.Entities
 {
     public class ProductEntity
     {
+        public ProductEntity()
+        {
+        }
+        public ProductEntity(string name, decimal price, int categoryId)
+        {
+            Name = name;
+            Price = price;
+            CategoryId = categoryId;
+        }
+
         [Key]
         public int Id { get; set; }
 
